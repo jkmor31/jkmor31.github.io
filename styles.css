@@ -22,15 +22,17 @@ section {
 #aboutMe {
     height: 50vh;
     padding: 30px;
+    background-color: aliceblue;
 }
 
 #aboutMe img {
-    margin: 0;
-    max-height: 40vh;
+    margin: auto;
+    max-height: 35vh;
+    max-width: 30vw;
 }
 
 #aboutMe div {
-    width: 50vw;
+    width: 55vw;
     text-align: left;
     line-height: 28px;
     font-size: 1vw;
@@ -49,6 +51,7 @@ aside {
     width: 30vw;
     display: inline-block;
     border: 2px solid black;
+    height: 40vh;
 }
 #projects h2 {
     border-bottom: 1px solid black;
@@ -75,3 +78,51 @@ a {
 a:hover {
     background-color: rgba(18, 18, 245, 0.7);
 }
+
+@media screen and (max-width: 1000px) {
+    section {
+        min-height: 50vh;
+    }
+
+    #aboutMe {
+        min-height: 50vh;
+        height: auto;
+    }
+    #aboutMe div {
+        font-size: 16px;;
+    }
+
+  }
+  
+  @media screen and (max-width: 680px) {
+    
+    section {
+        display: block;
+        height: auto;
+    }
+    #aboutMe img {
+        display: block;
+        margin: 20px auto;
+        max-height: 40vh;
+        max-width: 50vw;
+        height: auto;
+    }
+    #aboutMe {
+        min-height: 50vh;
+        height: auto;
+    }
+    
+    #aboutMe div {
+      background-color: lavender;
+      display: block;
+      width: 90vw;
+      font-size: 1.5vh;
+      height: auto;
+    }
+
+    aside {
+        display: block;
+        width: 80vw;
+        margin: 20px auto;
+    }
+  }
