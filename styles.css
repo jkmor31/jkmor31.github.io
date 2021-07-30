@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    height: 15vh;
+    min-height: 15vh;
     border: 2px solid black;
     width: 90vw;
     margin: 20px auto;
@@ -14,21 +14,24 @@ header {
 }
 
 section {
-    height: 30vh;
+    min-height: 30vh;
     display: flex;
     justify-content: space-evenly;
 }
 
 #aboutMe {
-    height: 50vh;
+    min-height: 50vh;
     padding: 30px;
     background-color: aliceblue;
 }
 
 #aboutMe img {
     margin: auto;
-    max-height: 35vh;
-    max-width: 30vw;
+    min-height: 10vh;
+    max-height: 40vh;
+    min-width: 20vw;
+    max-width: 40vw;
+    border-radius: 50%;
 }
 
 #aboutMe div {
@@ -51,7 +54,7 @@ aside {
     width: 30vw;
     display: inline-block;
     border: 2px solid black;
-    height: 40vh;
+    min-height: 40vh;
 }
 #projects h2 {
     border-bottom: 1px solid black;
@@ -91,6 +94,9 @@ a:hover {
     #aboutMe div {
         font-size: 16px;;
     }
+    aside {
+        height: auto;
+    }
 
   }
   
@@ -124,5 +130,6 @@ a:hover {
         display: block;
         width: 80vw;
         margin: 20px auto;
+        height: auto;
     }
   }
