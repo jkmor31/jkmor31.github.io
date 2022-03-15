@@ -1,0 +1,9 @@
+section {
+    background-color: #ffecb3;
+    padding: 30px;
+    min-height: 30vh;
+    h1 {font-size: 40px;}
+    mat-card {width: 50vw;margin: auto; display: flex; flex-direction: column; justify-content: center; background-color: ffffb3; padding-bottom: 40px;}
+    h2 {border-bottom: 2px solid black; padding: 10px 30px; display: inline-block; margin: 15px auto;}
+    p {margin: 10px 25px; font-size: 18px; line-height: 24px; text-align: justify;}
+  }
