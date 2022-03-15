@@ -6,13 +6,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
 import {MatCardModule} from '@angular/material/card';
 import { AppRoutingModule } from './app-routing.module';
-import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { HtmlProjectsComponent } from './html-projects/html-projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    HtmlProjectsComponent
   ],
   imports: [
     BrowserModule,
