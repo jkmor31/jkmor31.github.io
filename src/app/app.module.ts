@@ -12,8 +12,7 @@ import { HtmlProjectsComponent } from './html-projects/html-projects.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    HtmlProjectsComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
